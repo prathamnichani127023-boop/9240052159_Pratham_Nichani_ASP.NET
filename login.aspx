@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Unit_1.login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="UNIT2.login" %>
 
 <!DOCTYPE html>
 
@@ -31,22 +31,21 @@
 
             <tr>
                 <td colspan="2" align="center">
-                    <asp:Button ID="Button1" runat="server" Text="Submit" />
+                    <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
                 </td>
             </tr>
 
             <tr>
                 <td colspan="2" align="center">
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblMsg" runat="server"></asp:Label>
+                </td>
             </tr>
 
-            </table>
+        </table>
 
     </center>
 
 </form>
+
 </body>
 </html>
