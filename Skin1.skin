@@ -1,0 +1,7 @@
+﻿<asp:TextBox runat="server" Width="220px" BorderColor="Blue" BorderWidth="2px" />
+
+<asp:DropDownList runat="server" Width="225px" />
+
+<asp:Button runat="server" BackColor="Navy" ForeColor="White" Font-Bold="True" Width="100px" />
+
+<asp:Label runat="server" ForeColor="DarkBlue" Font-Bold="True" />
