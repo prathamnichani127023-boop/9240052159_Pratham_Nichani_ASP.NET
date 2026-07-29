@@ -1,0 +1,14 @@
+﻿body {
+    background-color: #F0F8FF;
+    font-family: Arial;
+}
+
+h2 {
+    color: DarkBlue;
+}
+
+table {
+    background-color: White;
+    border: 2px solid Navy;
+    padding: 15px;
+}
