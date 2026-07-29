@@ -1,0 +1,28 @@
+﻿body {
+    background-color: #f2f2f2;
+    font-family: Arial;
+}
+
+.login-box {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid navy;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 180px;
+    padding: 6px;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
